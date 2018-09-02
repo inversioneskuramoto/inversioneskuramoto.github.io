@@ -726,8 +726,3 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136
 }
-
-.carousel-inner > .item > img{
-       height:900px;
-       margin: auto;
-     }
