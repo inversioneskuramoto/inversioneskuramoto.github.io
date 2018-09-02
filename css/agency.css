@@ -726,3 +726,169 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #fed136
 }
+
+.carousel-inner > .item > img{
+       height:900px;
+       margin: auto;
+    }
+
+ /* (320x480) iPhone (Original, 3G, 3GS) */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .carousel-inner > .item > img{
+       height:320px;
+       width: 250px;
+       margin: auto;
+    }
+}
+ 
+/* (320x480) Smartphone, Portrait */
+@media only screen and (device-width: 320px) and (orientation: portrait) {
+    .carousel-inner > .item > img{
+       height: 320px;
+       width: 250px;
+       margin: auto;
+    }
+}
+ 
+/* (320x480) Smartphone, Landscape */
+@media only screen and (device-width: 480px) and (orientation: landscape) {
+    .carousel-inner > .item > img{
+       height: 250px;
+       width: 320px;
+       margin: auto;
+    }
+}
+ 
+/* (480x800) Android */
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    .carousel-inner > .item > img{
+       height: 520px;
+       width: 320px;
+       margin: auto;
+    }
+}
+ 
+/* (640x960) iPhone 4 & 4S */
+@media only screen and (min-device-width: 640px) and (max-device-width: 960px) {
+    .carousel-inner > .item > img{
+       height: 640px;
+       width: 430px;
+       margin: auto;
+    }
+}
+ 
+/* (720x1280) Galaxy Nexus, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .carousel-inner > .item > img{
+       height: 850px;
+       width: 480px;
+       margin: auto;
+    }
+}
+ 
+/* (720x1280) Galaxy Nexus, Landscape */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) and (orientation: landscape) {
+    .carousel-inner > .item > img{
+       height: 480px;
+       width: 850px;
+       margin: auto;
+    }
+}
+ 
+/* (1024x768) iPad 1 & 2, XGA */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .carousel-inner > .item > img{
+       height: 850px;
+       width: 480px;
+       margin: auto;
+    }
+}
+ 
+/* (768x1024) iPad 1 & 2, Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .carousel-inner > .item > img{
+       height: 850px;
+       width: 480px;
+       margin: auto;
+    }
+}
+ 
+/* (1024x768) iPad 1 & 2, Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .carousel-inner > .item > img{
+       height: 480px;
+       width: 850px;
+       margin: auto;
+    }
+ 
+/* (2048x1536) iPad 3 */
+@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) {
+    .carousel-inner > .item > img{
+       height: 1900px;
+       width: 960px;
+       margin: auto;
+    }
+}
+ 
+/* (1280x720) Galaxy Note 2, WXGA */
+@media only screen and (min-device-width: 720px) and (max-device-width: 1280px) {
+    .carousel-inner > .item > img{
+       height: 850px;
+       width: 480px;
+       margin: auto;
+    }
+}
+ 
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {
+    .carousel-inner > .item > img{
+       height:700px;
+       width: 1000px;
+       margin: auto;
+    }
+}
+ 
+/* (1280x1024) SXGA Display */
+@media  screen and (max-width: 1280px) {
+    .carousel-inner > .item > img{
+       height:700px;
+       width: 1000px;
+       margin: auto;
+    }
+}
+ 
+/* (1440x900) WXGA+ Display */
+@media  screen and (max-width: 1440px) {
+    .carousel-inner > .item > img{
+       height:700px;
+       width: 1000px;
+       margin: auto;
+    }
+}
+ 
+/* (1680x1050) WSXGA+ Display */
+@media  screen and (max-width: 1680px) {
+    .carousel-inner > .item > img{
+       height:700px;
+       width: 1000px;
+       margin: auto;
+    }
+}
+ 
+/* (1920x1080) Full HD Display */
+@media  screen and (max-width: 1920px) {
+    .carousel-inner > .item > img{
+       height:700px;
+       width: 1000px;
+       margin: auto;
+    }
+}
+ 
+/* (1600x900) HD+ Display */
+@media  screen and (max-width: 1600px) {
+    .carousel-inner > .item > img{
+       height:700px;
+       width: 1000px;
+       margin: auto;
+    }
+}
